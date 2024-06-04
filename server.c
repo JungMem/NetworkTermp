@@ -196,6 +196,7 @@ void* cliInteract(void* clientSocket){
 
     }
 
+    close(soc);
     printf("%d Socket disconnected\n", soc);
 
 }
